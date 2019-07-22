@@ -1,0 +1,48 @@
+{
+  "title": "A Day with the Dinosaurs",
+  "variables": [
+    { "name": "leader", "question": "Who is the leader of your group?" }
+  ],
+  "pages": [
+    {
+      "page-name": "Page 1",
+      "page-text": "  We and some other people have come to Wyoming for a dinosaur 'dig'.  We're looking for remains of the greatest creatures ever to walk on Earth.  Suddenly the leader of our group, <leader>, shouts, 'Here's a strange looking fossil.'
+        We run to the sandstone ledge where <leader> is bending over a huge curved bone.  He's one of the world's top experts on dinosaurs.
+        'It looks like a leg bone,' <player> says as <leader> brushes away some sand and pebbles.
+        As we all step closer for a better view, <leader> looks around. 'I need a group of people to go back to the Jeep and get my pick' he says.  'I need to pry this rock out of the way.'
+        We want to help, but we don't want to miss what happens next.",
+      "options": [
+        { "text": "Go back to the Jeep", "go-to-page": "Page 3" },
+        { "text": "Stay and watch what happens", "go-to-page": "Page 21", "unfinished": true }
+      ]
+    },
+    {
+      "page-name": "Page 3",
+      "page-text": "  We are in a big hurry our way back to the Jeep to get the pick.  <player> isn't watching where they are going and falls into a big hole.
+        Looking around, we notice that the hole is actually the entrance to a cave.  We all peer inside.  We turn back toward the entrace only to find ourselves in a different world!  The ground ahead of us is flat and sandy.  Stubby plants are scattered here and there.  To one side is a mass of ferns.  A low hill rises between them.  In the distance are groves of trees with long spiked leaves.
+        It doesn't take long for us to figure out what happened.  We've heard about a cave where each passageway leads to a different time.  This must be it!  The hole <last-player> fell into was an entrance to the Cave of Time.  We're sure we're not in our own time, because a huge dinosaur (twice as large as a rhinocerous) is walking straight towards us!  Along its huge, curving back are triangular plates that quiver as it walks.  At the tip of the tail are four giant spikes.
+        We all run to one side.  The creature lumbers by.  No need to worry. <player> has seen pictures of this dinosaur.  It's a harmless stegosaurus, a plant eater.
+        We watch the animal trod along the sandy earth.  It kicks up dust as it walks toward a water hole ringed with bristly plants.
+        Ararrrk!  A loud moan comes from above.  We look up, expecting to see a bird.  Instead we see the head of a monster!  Our eyes travel down along its long, rubbery, neck.  What we had thought was a hill is the body of a giant creature, bigger than we thought even dinosaurs could be!  The great beast's tail is curled around so the tip is almost touching <player>'s foot!  Even a brontosaurus wasn't this big.  This must be the brachiosaurus, the most gigantic creature that ever walked the Earth.
+        Garamph!
+        Oh no!  Another beast is coming closer.  It lets out such a roar that <player> claps their hands to their ears.  Coming through the trees is a Tyrannosaurus rex (ten times as tall as we are!)  It's jaws could kill a lion with one bite!
+        It sees us.",
+        "options": [
+          { "text": "Run as fast as we can", "go-to-page": "Page 11", "unfinished": true },
+          { "text": "Climb the tail of the brachiosaurus", "go-to-page": "Page 23", "unfinished": true }
+        ]
+    },
+    {
+      "page-name": "Page 21",
+      "page-text": "C or D?"
+    },
+    {
+      "page-name": "Page 11",
+      "page-text": "C or D?"
+    },
+    {
+      "page-name": "Page 23",
+      "page-text": "C or D?"
+    }
+  ]
+}
